@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Пример</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="dist/css/main.css">
+    </head>
+    <body>
+        <div apl-sign="example">
+            <div class="box">
+                <ul class="switcher">
+                    <li apl-btn="switchToAdmin">Admin</li>
+                    <li apl-btn="switchToManager">Manager</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div apl-sign="example">
+            <div class="box">
+                <div apl-bind="operation"></div>
+            </div>
+        </div>
+
+        <script src="dist/AplJS.js"></script>
+        <script src="dist/js/main.js"></script>
+        <script src="dist/js/include.js"></script>
+        <script>
+            app.run();
+        </script>
+    </body>
+
+</html>

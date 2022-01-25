@@ -1,0 +1,62 @@
+html,
+body{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(207, 197, 219);
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.box{
+	display: block;
+	border-radius: 5px;
+	padding: 5px 20px;
+	margin: 10px;
+	background-color: rgb(231, 233, 240);
+}
+
+.wapi_winx_button_aero {
+	display: inline-block;
+	min-width:100px;
+	text-align: center;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(68,68,68);
+	text-decoration: none;
+	user-select: none;
+	padding: 8px 16px;
+	outline: none;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 2px;
+	background: rgb(245,245,245) linear-gradient(#f4f4f4, #f1f1f1);
+	transition: all .218s ease 0s;
+	cursor:pointer;
+}
+
+.wapi_winx_button_aero:hover {
+	color: rgb(24,24,24);
+	border: 1px solid rgb(198,198,198);
+	background: #f7f7f7 linear-gradient(#f7f7f7, #f1f1f1);
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+.wapi_winx_button_aero:active {
+	color: rgb(51,51,51);
+	border: 1px solid rgb(204,204,204);
+	background: rgb(238,238,238) linear-gradient(rgb(238,238,238), rgb(224,224,224));
+	box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+}
+
+[apl-error="value"]{
+	border-color: coral;
+}
