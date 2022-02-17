@@ -539,7 +539,7 @@ App.prototype.beep = function(raw_target){
 	
 	// Если надо вернуть все параметры и есть что возвращать, возвращаем это
 	if (ext!="*" && return_status==true){
-		return return_values[ext];
+		return return_values["wait_"+ext];
 	}
 	
 	return (return_status==false)?this:return_values;
